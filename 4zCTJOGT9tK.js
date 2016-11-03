@@ -1,0 +1,5 @@
+/*!CK:4260000288!*//*1445245379,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["fkKlu"]); }
+
+__d('ShareDialogTypeaheadView.react',['cx','React','ShareDialogTypeaheadViewItem.react','TypeaheadViewPropTypes','XUITypeaheadViewContainer.react'],function a(b,c,d,e,f,g,h){if(c.__markCompiled)c.__markCompiled();var i=c('React').createClass({displayName:'ShareDialogTypeaheadView',propTypes:c('TypeaheadViewPropTypes'),getDefaultProps:function(){return {role:'listbox'};},_renderItem:function(j){return (c('React').createElement(c('ShareDialogTypeaheadViewItem.react'),{key:j.getUniqueID(),entry:j,highlighted:j===this.props.highlightedEntry,onSelect:this.props.onSelect,onHighlight:this.props.onHighlight,onRenderHighlight:this.props.onRenderHighlight}));},render:function(){var j=!this.props.entries.length?"_599s":'';return (c('React').createElement(c('XUITypeaheadViewContainer.react'),{className:j,id:this.props.ariaOwneeID,role:this.props.role},this.props.entries.map(this._renderItem)));}});f.exports=i;},null);

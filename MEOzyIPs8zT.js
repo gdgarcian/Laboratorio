@@ -1,0 +1,5 @@
+/*!CK:4132681494!*//*1444652718,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["JM2E5"]); }
+
+__d('TaggerBadgeSuggestion',['StrSet'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();function h(i,j,k){'use strict';this.$TaggerBadgeSuggestion1=i;this.$TaggerBadgeSuggestion2=j;this.$TaggerBadgeSuggestion3=k;this.$TaggerBadgeSuggestion4=null;}h.prototype.update=function(i){'use strict';if(i){var j=new (c('StrSet'))();for(var k=0;k<i.length;k++)j.add(JSON.stringify(i[k]));if(this.$TaggerBadgeSuggestion4&&j.equals(this.$TaggerBadgeSuggestion4))return;this.$TaggerBadgeSuggestion4=j;this.$TaggerBadgeSuggestion2.updateSuggestion(i.length,this.$TaggerBadgeSuggestion5?this.$TaggerBadgeSuggestion5.value:'');}else this.$TaggerBadgeSuggestion4=undefined;};h.prototype.isShown=function(){'use strict';return this.$TaggerBadgeSuggestion4&&this.$TaggerBadgeSuggestion4.count()>0;};f.exports=h;},null);

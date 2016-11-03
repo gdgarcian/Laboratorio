@@ -1,0 +1,5 @@
+/*!CK:3735334393!*//*1456767148,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["JQJ+8"]); }
+
+__d('ShareDialogEventAudience.react',['cx','fbt','ReactComposerContextMixin','React','ShareDialogAudienceTypeahead.react'],function a(b,c,d,e,f,g,h,i){if(c.__markCompiled)c.__markCompiled();var j=c('React').PropTypes,k=c('React').createClass({displayName:'ShareDialogEventAudience',mixins:[c('ReactComposerContextMixin')],propTypes:{searchSource:j.object.isRequired,onClear:j.func,onChange:j.func.isRequired,onSelect:j.func},getInitialState:function(){return {query:'',selectedEntry:null};},_onEventChange:function(l){this.props.onChange([l.getUniqueID()]);},render:function(){var l=i._("Evento:");return (c('React').createElement('div',null,c('React').createElement(c('ShareDialogAudienceTypeahead.react'),babelHelpers['extends']({},this.props,{onChange:this._onEventChange,prefix:l,showPhoto:true,name:'audience_event',inputID:'audience_event',className:"_18sr",placeholder:i._("Nombre del evento")}))));}});f.exports=k;},null);

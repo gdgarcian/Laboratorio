@@ -1,0 +1,5 @@
+/*!CK:3665716634!*//*1458533771,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["DDrbY"]); }
+
+__d('ChatOfflineTabSheet.react',['cx','fbt','React','WorkModeConfig'],function a(b,c,d,e,f,g,h,i){'use strict';if(c.__markCompiled)c.__markCompiled();var j=function(k){var l=k.turnOnChat,m=k.shortName,n=c('React').createElement('a',{href:'#',className:'fbChatGoOnlineLink',onClick:l},i._("activa el chat")),o=void 0;if(c('WorkModeConfig').is_work_user){o=i._("Para chatear con {name} y otros compa\u00f1eros de trabajo, {link}.",[i.param('name',m),i.param('link',n)]);}else o=i._("Para chatear con {name} y otros amigos, {link}",[i.param('name',m),i.param('link',n)]);return (c('React').createElement('div',{className:"_2phz _1sk1"},c('React').createElement('div',{className:"_1skc",'data-jsid':'image'}),c('React').createElement('div',{className:"_1skd",'data-jsid':'text'},o)));};f.exports=j;},null);

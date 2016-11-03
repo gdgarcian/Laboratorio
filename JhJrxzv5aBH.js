@@ -1,0 +1,6 @@
+/*!CK:4126463717!*//*1448269639,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["NPAuh"]); }
+
+__d('ChainingActionLink',['csx','CSS','DOM','Event','tidyEvent','BanzaiODS'],function a(b,c,d,e,f,g,h){if(c.__markCompiled)c.__markCompiled();var i="._4sb9",j="._5g3q",k="._5g3r",l={listenForClick:function(m){var n=c('DOM').scry(m,i),o=c('DOM').find(m,j),p=c('DOM').find(m,k);n.forEach(function(q){c('tidyEvent')(c('Event').listen(q,'click',function(){o&&c('CSS').hide(o);p&&c('CSS').show(p);}));});},countSavesAndShares:function(m,n,o){c('Event').listen(m,'click',function(event){c('BanzaiODS').bumpEntityKey('pubcontent','pubcontent_chaining.article_chaining.save_gk_'+o);});c('Event').listen(n,'click',function(event){c('BanzaiODS').bumpEntityKey('pubcontent','pubcontent_chaining.article_chaining.share_gk_'+o);});}};f.exports=l;},null);
+__d("XUploadVideoCalloutController",["XController"],function a(b,c,d,e,f,g){c.__markCompiled&&c.__markCompiled();f.exports=c("XController").create("\/composerx\/pages\/seen_upload_video\/",{});},null);

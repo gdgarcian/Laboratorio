@@ -1,0 +1,6 @@
+/*!CK:3080112137!*//*1457924863,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["C866Z"]); }
+
+__d('SwapButtonDEPRECATED',['Event','Arbiter','CSS','Focus'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();function h(i,j,k){this._swapperButton=i;this._swappeeButton=j;c('Event').listen(i,'click',this.swap.bind(this));if(k)c('Event').listen(j,'click',this.unswap.bind(this));c('Arbiter').subscribe('SwapButtonDEPRECATED/focusOnJoinButton',this.setFocusOnSwapper.bind(this),c('Arbiter').SUBSCRIBE_ALL);}Object.assign(h.prototype,{_swapperButton:null,_swappeeButton:null,swap:function(i){c('CSS').hide(this._swapperButton);c('CSS').show(this._swappeeButton);i!==false&&c('Focus').setWithoutOutline(this._swappeeButton);},unswap:function(i){c('CSS').show(this._swapperButton);c('CSS').hide(this._swappeeButton);i!==false&&c('Focus').setWithoutOutline(this._swapperButton);},toggle:function(){c('CSS').toggle(this._swapperButton);c('CSS').toggle(this._swappeeButton);},setFocusOnSwapper:function(){this._swapperButton.focus();}});f.exports=h;},null);
+__d('legacy:UIPagelet',['UIPagelet'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();b.UIPagelet=c('UIPagelet');},3);

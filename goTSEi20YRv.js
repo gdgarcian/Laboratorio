@@ -1,0 +1,5 @@
+/*!CK:209399234!*//*1447455987,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["XtuGt"]); }
+
+__d('ComposerXStatusAttachmentBootloader',['AsyncRequest','ComposerEntryPointRef','XReactComposerLoggingODSController','ComposerXBootloadStatusAttachment','ComposerXMentionsInputReset','ComposerXPrivacyWidgetReset','MentionsInput','MentionsTypeaheadAreaView'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();c('ComposerXBootloadStatusAttachment');c('ComposerXMentionsInputReset');c('ComposerXPrivacyWidgetReset');c('MentionsInput');c('MentionsTypeaheadAreaView');f.exports={emptyFunction:function(){var h=c('XReactComposerLoggingODSController').getURIBuilder().setString('event','bootload_start').setEnum('composer_type',c('ComposerEntryPointRef').LEGACY_FEED).getURI();new (c('AsyncRequest'))(h).send();}};},null);
